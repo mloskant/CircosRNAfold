@@ -10,7 +10,7 @@ The pyCircos package (https://github.com/ponnhide/pyCircos) is used to create th
 # Installation
 
 You can install this script directly from github with:
-`git clone https://github.com/mloskant/.....git`
+`git clone https://github.com/mloskant/CircosRNAfold.git`
 
 ## Prerequisites
 You can install the dependencies for using the script via the requirements.text file by running the following code:
