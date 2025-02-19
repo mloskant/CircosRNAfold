@@ -10,13 +10,15 @@ The pyCircos package (https://github.com/ponnhide/pyCircos) is used to create th
 # Installation
 
 You can install this script directly from github with:
-`git clone https://github.com/mloskant/CircosRNAfold.git`
+```
+git clone https://github.com/mloskant/CircosRNAfold.git
+```
 
 ## Prerequisites
-You can install the dependencies for using the script via the requirements.text file by running the following code:
-
-`pip install -r requirements.txt`
-
+You can install the dependencies for using the script via the ```requirements.text``` file by running the following code:
+```
+pip install -r requirements.txt
+```
 In addtition, Python 3.10 or higher is required.
 
 
@@ -37,9 +39,11 @@ Optional parameters can also be used:
 ## Running CircosRNAfold with sample data: 
 You must first <em>sample_data/example_data_TAIR10_chr_all.fas.gz</em> unpack and then:
 
-`python3 circosrnafold.py --genes sample_data/example_data_genes.bed --bindings sample_data/example_data_binding_sites.bed --fasta sample_data/example_data_TAIR10_chr_all.fas -bw sample_data/example_data_bw_minus.bw -m sample_data/example_data_mature_rnas.bed --output circoplots`
+```
+python3 circosrnafold.py --genes sample_data/example_data_genes.bed --bindings sample_data/example_data_binding_sites.bed --fasta sample_data/example_data_TAIR10_chr_all.fas -bw sample_data/example_data_bw_minus.bw -m sample_data/example_data_mature_rnas.bed --output circoplots
+```
 
-# Setting boxplot color(s)
+# Setting raw data color(s)
 A maximum of four colors can be specified for the maximum of four bigWig files. There are the following four default colors: #800080 (purple), #006400 (green), #FF6347 (red), #4682B4 (blue). Depending on the number of bigWig files specified, the appropriate number of default colors are used in sequence as listed above. The default colors are used if no colors or too many/too few are specified by you. If this is the case, a message appears on the terminal. To specify the colors yourself, use the `-color` parameter followed by the colors in the hexadecimal system (without a preceding #).
 
 # Gallery
